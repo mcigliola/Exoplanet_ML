@@ -1,7 +1,7 @@
 # **Exoplanet Classification with Machine Learning**
 
 ## **Overview**
-This project explores the use of machine learning techniques to classify distant stars as either harboring exoplanets or not, using stellar flux time-series data. The dataset comes from the **NASA Kepler Space Telescope**, and the goal is to train models that can detect exoplanets based on variations in brightness.
+This project explores the use of machine learning techniques to classify distant stars as either harboring exoplanets or not, using stellar flux time-series data. The dataset is "Exoplanet Hunting in Deep Space" available through Kaggle (https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data), which compiles data from the NASA Kepler Space Telescope. The goal is to train models that can detect exoplanets based on variations in brightness.
 
 This project was completed as a learning exercise in data preprocessing, model training, and hyperparameter tuning. It explores different architectures to handle imbalanced classification problems in real-world datasets.
 
@@ -24,7 +24,7 @@ The project explores two types of neural network machine learning models:
 - Exploratory Data Analysis (EDA) of light curves.
 
 ### **Model Training & Tuning**
-- **Regularization techniques**: Dropout, L2 weight decay, batch normalization.
+- **Regularization techniques**: Dropout and batch normalization.
 - **Hyperparameter tuning** using early stopping, learning rate adjustments, and weighted loss functions.
 - **Model comparison** between CNN and LSTM architectures.
 
